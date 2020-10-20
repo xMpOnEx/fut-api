@@ -1,26 +1,23 @@
 {
-    "name": "shapecode/fut-api",
+    "name": "xmponex/fut-api",
     "description": "FIFA WebApp API",
     "keywords": [
         "fut",
         "fifa",
         "api",
-        "fifa20"
+        "fifa21"
     ],
     "type": "library",
     "license": "GPL-3.0-or-later",
-    "homepage": "https://github.com/shapecode/fut-api",
+    "homepage": "https://github.com/xmponex/fut-api",
     "support": {
-        "email": "git@shapecode.de",
-        "issues": "https://github.com/shapecode/fut-api/issues",
-        "source": "https://github.com/shapecode/fut-api/releases",
-        "wiki": "https://github.com/shapecode/fut-api/wiki"
+        "issues": "https://github.com/xmponex/fut-api/issues",
+        "source": "https://github.com/xmponex/fut-api/releases",
+        "wiki": "https://github.com/xmponex/fut-api/wiki"
     },
     "authors": [
         {
-            "name": "Shapecode",
-            "homepage": "https://shapecode.de",
-            "email": "git@shapecode.de"
+            "name": "xMpOnEx"
         }
     ],
     "require": {
@@ -68,7 +65,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Shapecode\\FUT\\Client\\": "src/"
+            "xMpOnEx\\FUT\\Client\\": "src/"
         },
         "files": [
             "src/bootstrap.php"
@@ -76,7 +73,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Shapecode\\FUT\\Client\\Tests\\": "tests/"
+            "xMpOnEx\\FUT\\Client\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -101,7 +98,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "20.0-dev"
+            "dev-master": "dev-FIFA21"
         },
         "unused": [
             "nyholm/psr7"

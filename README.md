@@ -1,31 +1,29 @@
 <!--
-  Title: FIFA 20 WebApp API
-  Description: A simply way to manage your FIFA 20 Ultimate Team with a PHP
+  Title: FIFA 21 WebApp API
+  Description: A simply way to manage your FIFA 21 Ultimate Team with a PHP
   -->
 
-# FIFA 20 WebApp API
+# FIFA 21 WebApp API
 
-Manage your FIFA 20 Ultimate Team using this FIFA 20 Ultimate Team API.
+Manage your FIFA 21 Ultimate Team using this FIFA 21 Ultimate Team API.
 Written solely in PHP
 
-[![paypal](https://img.shields.io/badge/Donate-Paypal-blue.svg)](http://paypal.me/nloges)
-
-[![PHP Version](https://img.shields.io/packagist/php-v/shapecode/fut-api.svg)](https://packagist.org/packages/shapecode/fut-api)
-[![Latest Stable Version](https://img.shields.io/packagist/v/shapecode/fut-api.svg?label=stable)](https://packagist.org/packages/shapecode/fut-api)
-[![Latest Unstable Version](https://img.shields.io/packagist/vpre/shapecode/fut-api.svg?label=unstable)](https://packagist.org/packages/shapecode/fut-api)
-[![Total Downloads](https://img.shields.io/packagist/dt/shapecode/fut-api.svg)](https://packagist.org/packages/shapecode/fut-api)
-[![Monthly Downloads](https://img.shields.io/packagist/dm/shapecode/fut-api.svg?label=monthly)](https://packagist.org/packages/shapecode/fut-api)
-[![Daily Downloads](https://img.shields.io/packagist/dd/shapecode/fut-api.svg?label=daily)](https://packagist.org/packages/shapecode/fut-api)
-[![License](https://img.shields.io/packagist/l/shapecode/fut-api.svg)](https://packagist.org/packages/shapecode/fut-api)
+[![PHP Version](https://img.shields.io/packagist/php-v/xMpOnEx/fut-api.svg)](https://packagist.org/packages/xMpOnEx/fut-api)
+[![Latest Stable Version](https://img.shields.io/packagist/v/xMpOnEx/fut-api.svg?label=stable)](https://packagist.org/packages/xMpOnEx/fut-api)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/xMpOnEx/fut-api.svg?label=unstable)](https://packagist.org/packages/xMpOnEx/fut-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/xMpOnEx/fut-api.svg)](https://packagist.org/packages/xMpOnEx/fut-api)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/xMpOnEx/fut-api.svg?label=monthly)](https://packagist.org/packages/xMpOnEx/fut-api)
+[![Daily Downloads](https://img.shields.io/packagist/dd/xMpOnEx/fut-api.svg?label=daily)](https://packagist.org/packages/xMpOnEx/fut-api)
+[![License](https://img.shields.io/packagist/l/xMpOnEx/fut-api.svg)](https://packagist.org/packages/xMpOnEx/fut-api)
 
 
 ## Installing
 
-The recommended way to install FIFA 20 WebApp API is through
+The recommended way to install FIFA 21 WebApp API is through
 [Composer](http://getcomposer.org).
 
 ```bash
-composer require shapecode/fut-api "~20.0@dev"
+composer require xMpOnEx/fut-api "dev-FIFA21"
 ```
 
 ## Contribute
@@ -38,8 +36,8 @@ Don't be shy. Feel free to contribute and create pull-requests. There's a lot to
 
 Login parameters:
 
-- email: [string] email used for logging into the FIFA 20 WebApp
-- password: [string] password used for logging into the FIFA 20 WebApp
+- email: [string] email used for logging into the FIFA 21 WebApp
+- password: [string] password used for logging into the FIFA 21 WebApp
 - platform: [string] pc/ps4/ps4/xbox/xbox360
 - code: [string] email code for two-step verification (make sure to use string if your code starts with 0).
 
